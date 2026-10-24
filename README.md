@@ -1,112 +1,112 @@
-# 🏨 Aplicativo para Hotéis — C# / Windows Forms
+# 🏨 Hotel Management Application — C# / Windows Forms
 
-Aplicação desktop desenvolvida em **C# com Windows Forms (WinForms)** para facilitar o cadastro e o gerenciamento de hóspedes, quartos e hospedagens.
+A desktop application developed in **C# using Windows Forms (WinForms)** to simplify the registration and management of guests, rooms, and hotel stays.
 
-O projeto tem como objetivo praticar conceitos de programação orientada a objetos, desenvolvimento de interfaces gráficas, persistência de dados em JSON e implementação de regras de negócio.
+The project aims to practice object-oriented programming, graphical user interface development, JSON data persistence, and business logic implementation.
 
-## 📸 Captura de tela
+## 📸 Screenshot
 
 <p align="center">
-  <img src="img/Captura-de-tela.png" alt="Interface do aplicativo de gerenciamento de hotéis" width="800" />
+  <img src="img/Captura-de-tela.png" alt="Hotel management application interface" width="800" />
 </p>
 
-## 🚀 Funcionalidades
+## 🚀 Features
 
-### 👤 Gerenciamento de hóspedes
-- Cadastro de hóspedes.
-- Edição e exclusão de registros.
-- Validação de CPF.
-- Verificação de CPF duplicado.
+### 👤 Guest Management
+- Register guests.
+- Edit and delete guest records.
+- Validate Brazilian CPF numbers.
+- Check for duplicate CPF numbers.
 
-### 🛏️ Gerenciamento de quartos
-- Cadastro, edição e exclusão de quartos.
-- Numeração única para cada quarto.
-- Definição de tipo, capacidade e valor da diária.
-- Controle do status de ocupação.
+### 🛏️ Room Management
+- Register, edit, and delete rooms.
+- Assign a unique number to each room.
+- Define room type, capacity, and daily rate.
+- Track room occupancy status.
 
-### 📋 Gerenciamento de hospedagens
-- Realização de check-in para hóspedes cadastrados.
-- Seleção apenas de quartos disponíveis.
-- Registro de check-out.
-- Cálculo do valor total da hospedagem com base nas diárias.
+### 📋 Stay Management
+- Check in registered guests.
+- Select only available rooms.
+- Register guest check-outs.
+- Calculate the total accommodation cost based on the number of nights.
 
-### 📊 Painel de resumo
-- Quantidade total de quartos.
-- Quantidade de quartos disponíveis.
-- Quantidade de quartos ocupados.
+### 📊 Summary Dashboard
+- Display the total number of rooms.
+- Display the number of available rooms.
+- Display the number of occupied rooms.
 
-## 🛠️ Tecnologias utilizadas
+## 🛠️ Technologies Used
 
-- **C#** — linguagem de programação.
-- **Windows Forms (WinForms)** — desenvolvimento da interface gráfica.
-- **.NET 8** — plataforma de desenvolvimento.
-- **JSON** — armazenamento local dos dados.
+- **C#** — programming language.
+- **Windows Forms (WinForms)** — graphical user interface development.
+- **.NET 8** — development platform.
+- **JSON** — local data storage.
 
-## 📋 Requisitos
+## 📋 Requirements
 
-Antes de executar o projeto, certifique-se de ter instalado:
+Before running the project, make sure you have the following installed:
 
-- Windows 10 ou Windows 11.
+- Windows 10 or Windows 11.
 - [.NET 8 SDK](https://dotnet.microsoft.com/download).
-- [Visual Studio 2022](https://visualstudio.microsoft.com/pt-br/vs/) com a carga de trabalho de desenvolvimento para desktop com .NET, caso opte por utilizá-lo.
+- [Visual Studio 2022](https://visualstudio.microsoft.com/vs/) with the **.NET desktop development** workload, if you choose to use Visual Studio.
 
-## ▶️ Como executar
+## ▶️ How to Run
 
-### Opção 1 — Terminal
+### Option 1 — Terminal
 
-1. Clone o repositório:
+1. Clone the repository:
 
    ```bash
    git clone https://github.com/Taunt-byte/App-hotel-Csharp.git
    ```
 
-2. Entre na pasta do projeto:
+2. Navigate to the project directory:
 
    ```bash
    cd HotelApp
    ```
 
-3. Execute a aplicação:
+3. Run the application:
 
    ```bash
    dotnet run
    ```
 
-### Opção 2 — Visual Studio 2022
+### Option 2 — Visual Studio 2022
 
-1. Abra o arquivo `HotelApp.csproj` no Visual Studio 2022.
-2. Aguarde a restauração das dependências.
-3. Pressione **F5** para compilar e executar a aplicação.
+1. Open the `HotelApp.csproj` file in Visual Studio 2022.
+2. Wait for the dependencies to be restored.
+3. Press **F5** to build and run the application.
 
-## 💾 Persistência de dados
+## 💾 Data Persistence
 
-Os dados são armazenados localmente em arquivos JSON no diretório de dados da aplicação, dentro de `%AppData%\HotelApp\`.
+Data is stored locally in JSON files in the application's data directory, under `%AppData%\HotelApp\`.
 
-Essa abordagem permite manter os registros entre execuções sem a necessidade de configurar um servidor de banco de dados.
+This approach allows records to persist between application runs without requiring a database server.
 
-## 🎯 Objetivos de aprendizagem
+## 🎯 Learning Objectives
 
-Este projeto foi desenvolvido com o propósito de praticar:
+This project was developed to practice:
 
-- Programação orientada a objetos (POO).
-- Criação de interfaces gráficas com WinForms.
-- Operações CRUD (Create, Read, Update, Delete).
-- Validação de dados e prevenção de duplicidade.
-- Separação entre modelos, acesso a dados e regras de negócio.
-- Serialização e desserialização de arquivos JSON.
+- Object-oriented programming (OOP).
+- Building graphical user interfaces with Windows Forms.
+- CRUD operations (Create, Read, Update, Delete).
+- Data validation and duplicate prevention.
+- Separation of models, data access, and business logic.
+- JSON serialization and deserialization.
 
-## 🔮 Melhorias futuras
+## 🔮 Future Improvements
 
-- Implementar autenticação e controle de acesso.
-- Adicionar filtros e pesquisa de hóspedes.
-- Criar relatórios de ocupação e faturamento.
-- Implementar testes automatizados.
-- Avaliar a utilização de um banco de dados relacional.
+- Implement authentication and access control.
+- Add guest search and filtering.
+- Generate occupancy and revenue reports.
+- Implement automated tests.
+- Consider integrating a relational database.
 
-## ⚠️ Observação
+## ⚠️ Disclaimer
 
-Este projeto possui finalidade educacional e de portfólio. Antes de utilizá-lo em um ambiente hoteleiro real, será necessário avaliar aspectos de segurança, controle de acesso, cópias de segurança e proteção de dados pessoais conforme a LGPD.
+This project was created for educational and portfolio purposes. Before using it in a real hotel environment, security, access control, backups, and personal data protection must be carefully evaluated, including compliance with Brazil's **General Data Protection Law (LGPD)**.
 
-## 👨‍💻 Autor
+## 👨‍💻 Author
 
-Desenvolvido como projeto de estudo em C# e desenvolvimento de aplicações desktop.
+Developed as a learning project focused on C# and desktop application development.
