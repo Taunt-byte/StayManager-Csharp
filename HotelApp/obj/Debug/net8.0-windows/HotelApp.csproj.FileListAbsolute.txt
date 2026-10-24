@@ -1,0 +1,15 @@
+C:\Projetos\App-hotel-Csharp\HotelApp\bin\Debug\net8.0-windows\HotelApp.exe
+C:\Projetos\App-hotel-Csharp\HotelApp\bin\Debug\net8.0-windows\HotelApp.deps.json
+C:\Projetos\App-hotel-Csharp\HotelApp\bin\Debug\net8.0-windows\HotelApp.runtimeconfig.json
+C:\Projetos\App-hotel-Csharp\HotelApp\bin\Debug\net8.0-windows\HotelApp.dll
+C:\Projetos\App-hotel-Csharp\HotelApp\bin\Debug\net8.0-windows\HotelApp.pdb
+C:\Projetos\App-hotel-Csharp\HotelApp\obj\Debug\net8.0-windows\HotelApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\App-hotel-Csharp\HotelApp\obj\Debug\net8.0-windows\HotelApp.AssemblyInfoInputs.cache
+C:\Projetos\App-hotel-Csharp\HotelApp\obj\Debug\net8.0-windows\HotelApp.AssemblyInfo.cs
+C:\Projetos\App-hotel-Csharp\HotelApp\obj\Debug\net8.0-windows\HotelApp.csproj.CoreCompileInputs.cache
+C:\Projetos\App-hotel-Csharp\HotelApp\obj\Debug\net8.0-windows\HotelApp.sourcelink.json
+C:\Projetos\App-hotel-Csharp\HotelApp\obj\Debug\net8.0-windows\HotelApp.dll
+C:\Projetos\App-hotel-Csharp\HotelApp\obj\Debug\net8.0-windows\refint\HotelApp.dll
+C:\Projetos\App-hotel-Csharp\HotelApp\obj\Debug\net8.0-windows\HotelApp.pdb
+C:\Projetos\App-hotel-Csharp\HotelApp\obj\Debug\net8.0-windows\HotelApp.genruntimeconfig.cache
+C:\Projetos\App-hotel-Csharp\HotelApp\obj\Debug\net8.0-windows\ref\HotelApp.dll
